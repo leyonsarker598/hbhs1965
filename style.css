@@ -1,0 +1,300 @@
+/*Common CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 14px -1px #000;
+}
+a,h1,h2,h3,h4,h5,h6,p,b,span{
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.clear_float{
+    clear: both;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+/*Main Slider CSS-slideshow.css*/
+/*Slider Title CSS*/
+.banner_title {
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    transform: translate(-50px, -50px);
+}
+.banner_title h1 {
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 45px;
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner_title h3{
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 25px;
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Main Body CSS*/
+.main_body{
+    margin-top: 10px;
+    display: flex;
+}
+.main_body .sidebar ul{
+    list-style: none;
+    padding: 5px;
+    background-color: #fff;
+}
+.main_body .sidebar ul li{
+    margin-top: 5px;
+}
+.main_body .sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 10px;
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.main_body .sidebar ul li a:hover{
+    color: #06a3ff;
+}
+/*Main Content CSS*/
+.main_cont{
+    width: 75%;
+    margin-right: 10px;
+}
+.main_cont img{
+    width: 100px;
+}
+.main_cont h3{}
+/*Notices*/
+.notices{
+    border: 1px dotted #ccc;
+    padding-bottom: 45px;
+    width: 100%;
+    background: linear-gradient(#f0f0f0, #fff);
+    display: flex;
+    position: relative;
+}
+.notice_img{
+    width: 20%;
+    margin-top: 10px;
+}
+.notices .notice_body{
+    width: 80%;
+    margin-top: 10px;
+}
+.notices .more_btn a{
+    text-decoration: none;
+    color: #000;
+    background: #ccc;
+    font-size: 15px;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.notices .notice_body ul {
+    margin-left: 37px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.notices .notice_body ul li{
+    margin-top: 10px;
+}
+.notices .notice_body ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 10px;
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.notices .notice_body ul li a:hover{
+    color: #06a3ff;
+}
+/*Scroll News*/
+.scroll_news{
+    width: 100%;
+    background: linear-gradient(#f0f0f0, #fff);
+    border: 1px dotted #ccc;
+    margin-top: 10px;
+    padding: 10px 0px;
+    position: relative;
+}
+.scroll_news span{
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 5px;
+    padding: 2px 5px;
+}
+.scroll_news marquee {
+    padding: 2px 5px;
+    width: 580px;
+    margin-left: 60px;
+}
+.scroll_news marquee a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    
+}
+.scroll_news .more_btn{
+    text-decoration: none;
+    color: #000;
+    background: #ccc;
+    font-size: 15px;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 5px;
+}
+/*Downloads*/
+.dl{
+    border: 1px dotted #ccc;
+    width: 100%;
+    padding-bottom: 45px;
+    background: linear-gradient(#f0f0f0, #fff);
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+.dl_img{
+    width: 20%;
+    margin-top: 10px;
+}
+.dl .dl_body{
+    width: 72%;
+    margin-top: 10px;
+}
+.dl .more_btn a{
+    text-decoration: none;
+    color: #000;
+    background: #ccc;
+    font-size: 15px;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.dl .dl_body ul {
+    margin-left: 37px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.dl .dl_body ul li{
+    margin-top: 10px;
+}
+.dl .dl_body ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 10px;
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.dl .dl_body ul li a:hover{
+    color: #06a3ff;
+}
+/*Sidebar CSS*/
+.sidebar{
+    width: 25%;
+    margin-bottom: 100px;
+}
+.sidebar h4{
+    color: #fff;
+    background-color: #06a3ff;
+    padding: 5px;
+}
+.inst_head img{
+    width: 150px;
+    height: auto;
+    margin: 0px 0px 2px 42px;
+}
+.inst_head p{
+    font-family: Noto Sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+/*Footer CSS*/
+.footer{
+    display: flex;
+    border-top: 5px solid #737272;
+    background: linear-gradient(#fff, #f0f0f0);
+}
+.footer_left{
+    width: 50%;
+}
+.footer_left span{
+    display: block;
+    color: #06a3ff;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0px 3px 0px;
+}
+.footer_left a{
+    text-decoration: none;
+    color: #06a3ff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 0px;
+    display: block;
+}
+.footer_right{
+    width: 50%;
+}
+.footer_right span{
+    display: block;
+    color: #06a3ff;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0px 3px 0px;
+    text-align: right;
+}
+.footer_right a{
+    text-decoration: none;
+    color: #06a3ff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 0px;
+    display: block;
+}
